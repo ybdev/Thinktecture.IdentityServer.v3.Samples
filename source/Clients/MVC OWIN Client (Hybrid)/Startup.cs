@@ -18,6 +18,7 @@ namespace MVC_OWIN_Client
 {
     public class Startup
     {
+
         public void Configuration(IAppBuilder app)
         {
             JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
